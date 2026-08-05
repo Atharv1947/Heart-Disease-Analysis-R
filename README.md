@@ -1,36 +1,30 @@
-# ❤️ Heart Disease Analysis using R
+# 🫀 Heart Disease Analysis using R
 
 ## 📌 Project Overview
-This project performs exploratory data analysis and statistical analysis on a heart disease dataset using R.
+This project performs exploratory data analysis and statistical analysis on a cardiovascular dataset using R. Beyond standard descriptive statistics, this repository focuses on translating clinical data patterns into strategic insights for healthcare resource allocation, early risk detection, and patient stratification.
 
-## 📂 Dataset
-- heart.csv
+## 💡 Key Business & Healthcare Insights
+* **Targeted Risk Stratification:** Analysis of chest pain types and exercise-induced angina helps identify high-risk patient segments earlier, enabling healthcare providers to prioritize preventive care and lower overall intervention costs.
+* **Resource & Screening Optimization:** Evaluating age and cholesterol distributions highlights high-density demographic clusters, allowing healthcare institutions to allocate screening resources more efficiently.
+* **Data-Driven Clinical Decisions:** Multi-variable correlation plots demonstrate how interconnected clinical factors are, supporting better-informed treatment pathways and pharmaceutical strategy.
 
-## 📊 Visualizations
-- Age Distribution
-- Gender Distribution
-- Cholesterol Distribution
-- Correlation Heatmap
-- Pair Plot
-- Bubble Plot
-- Violin Plot
-- Chest Pain Heatmap
-- Exercise Angina Heatmap
+## 📁 Dataset
+* `heart.csv` — Comprehensive dataset containing clinical patient parameters and heart disease diagnostic indicators.
 
-## 🛠 Technologies Used
-- R
-- tidyverse
-- ggplot2
-- gt
-- gtsummary
-- psych
-- readxl
+## 📊 Key Visualizations Included
+* **Demographic Distributions:** Age Distribution, Gender Distribution, Cholesterol Distribution
+* **Multivariate Analysis:** Pair Plot, Bubble Plot, Violin Plot
+* **Risk Patterns:** Correlation Heatmap, Chest Pain Heatmap, Exercise Angina Heatmap
 
-## 📁 Project Structure
-Data/
-Plots/
-Tables/
-RCode/
+## 🛠️ Technologies & Packages Used
+* **Language:** R
+* **Data Manipulation & Visualization:** `tidyverse`, `ggplot2`
+* **Summary Tables & Reports:** `gt`, `gtsummary`, `psych`, `readxl`
 
+## 📂 Project Structure
+├── Data/         # Raw and processed datasets
+├── Plots/        # Generated charts, heatmaps, and visualizations
+├── Tables/       # Summary tables and output matrices
+└── RCode/        # R scripts for analysis and visualization
 ## 🚀 Author
 Atharv Pawar

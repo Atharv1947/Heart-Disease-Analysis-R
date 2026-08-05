@@ -2,7 +2,7 @@
 
 pacman::p_load("tidyverse","dplyr","haven","readxl",
                "ggsci","RColorBrewer","reshape2","psych",
-               "ggplot2","gt","gtsummary","writexl","summarytools","here)
+               "ggplot2","gt","gtsummary","writexl","summarytools","here")
 
 # Loaded the data 
 

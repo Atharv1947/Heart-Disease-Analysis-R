@@ -5,8 +5,11 @@ pacman::p_load("tidyverse","dplyr","haven","readxl",
                "ggplot2","gt","gtsummary","writexl","summarytools")
 
 # Loaded the data 
+install.packages("here")
+library(here)
 
-Data_P <- read_csv("F:\\RLanguage\\Project\\Project_1\\archive\\heart.csv")
+Data_P <-read.csv(here("Data","heart.csv"))
+
 
 
 # Understanding the data set 

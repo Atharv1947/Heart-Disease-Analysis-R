@@ -26,5 +26,14 @@ This project performs exploratory data analysis and statistical analysis on a ca
 ├── Plots/        # Generated charts, heatmaps, and visualizations
 ├── Tables/       # Summary tables and output matrices
 └── RCode/        # R scripts for analysis and visualization
+## ▶️ How to Run
+
+1. Clone or download this repository.
+2. Open `Heart-Disease-Analysis.Rproj` in RStudio.
+3. Install any missing packages (if prompted).
+4. Run `RCode/Heart_Disease.R`.
+
+> **Note:** The project uses the `here` package for relative file paths, so you do not need to modify any file locations after opening the R project.
+
 ## 🚀 Author
 Atharv Pawar

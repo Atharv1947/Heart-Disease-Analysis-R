@@ -5,7 +5,7 @@ pacman::p_load("tidyverse","dplyr","haven","readxl",
                "ggplot2","gt","gtsummary","writexl","summarytools")
 
 # Loaded the data 
-library(here)
+
 
 Data_P <-read.csv(here("Data","heart.csv"))
 
